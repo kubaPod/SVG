@@ -72,7 +72,8 @@ Begin["`Private`"] (* Begin Private Context *)
 	    using also the content of the primitive, pattern matching approach leaves
 	    more freedom*)
 	primitiveNameConv[primitive_[content___]] := Switch[primitive,
-	      Disk, "circle"
+	      Disk|Circle, "circle"
+
 	]
 
   mergeDirectives[Circle, c_?ColorQ]:= "stroke" -> colorConversion @ c;

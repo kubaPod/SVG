@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18915,        532]
-NotebookOptionsPosition[     17171,        474]
-NotebookOutlinePosition[     17828,        497]
-CellTagsIndexPosition[     17724,        492]
+NotebookDataLength[     13548,        385]
+NotebookOptionsPosition[     12739,        358]
+NotebookOutlinePosition[     13089,        373]
+CellTagsIndexPosition[     13046,        370]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,49 +30,9 @@ Cell[BoxData[{
  CellChangeTimes->{{3.6617705127686825`*^9, 3.6617705173689795`*^9}, {
   3.661792103250047*^9, 3.6617921340920963`*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"?", "SVG`*"}]], "Input",
  CellChangeTimes->{{3.6617705226214304`*^9, 3.661770529094751*^9}}],
-
-Cell[CellGroupData[{
-
-Cell["SVG`ExportSVG", "Print", "PrintUsage",
- CellChangeTimes->{3.6617977461185355`*^9},
- CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"],
-
-Cell[BoxData[
- InterpretationBox[GridBox[{
-    {GridBox[{
-       {
-        RowBox[{
-         RowBox[{"ExportSVG", "[", 
-          RowBox[{"SVG`Private`gr", ":", 
-           RowBox[{"Blank", "[", "\<\"Graphics\"\>", "]"}]}], "]"}], ":=", 
-         RowBox[{"SVG`Private`distributeDirectives", "[", 
-          RowBox[{"First", "[", "SVG`Private`gr", "]"}], "]"}]}]}
-      },
-      BaselinePosition->{Baseline, {1, 1}},
-      GridBoxAlignment->{
-       "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
-        "RowsIndexed" -> {}},
-      GridBoxItemSize->{"Columns" -> {{
-           Scaled[0.999]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
-        "RowsIndexed" -> {}}]}
-   },
-   BaselinePosition->{Baseline, {1, 1}},
-   GridBoxAlignment->{
-    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
-     "RowsIndexed" -> {}}],
-  Definition[SVG`ExportSVG],
-  Editable->False]], "Print",
- CellChangeTimes->{3.6617977461654153`*^9},
- CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"gr", "=", 
@@ -104,24 +64,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.6617705619057083`*^9, 3.6617705619057083`*^9}}],
 
 Cell[BoxData[
- GraphicsBox[
-  {EdgeForm[{RGBColor[0, 0, 1], Thickness[Large], Dashing[{Small, Small}]}], 
-   {RGBColor[1, 0, 0], 
-    DiskBox[NCache[{Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {
-      0.8660254037844386, -0.5}]], 
-    {RGBColor[1, 1, 0], 
-     DiskBox[NCache[{Rational[1, 2] 3^Rational[1, 2], Rational[1, 2]}, {
-       0.8660254037844386, 0.5}]]}}, DiskBox[{0, 1}], 
-   {RGBColor[0, 0, 1], EdgeForm[RGBColor[1, 0.5, 0]], FaceForm[Opacity[0.5]], 
-    DiskBox[NCache[{
-      Rational[-1, 2] 3^Rational[1, 2], 
-       Rational[-1, 2]}, {-0.8660254037844386, -0.5}]]}}]], "Output",
- CellChangeTimes->{3.6617977482811623`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"data", "=", 
   RowBox[{
    RowBox[{
@@ -132,26 +74,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.661770565270561*^9, 3.6617705703257523`*^9}, {
    3.661792538272331*^9, 3.661792545563698*^9}, 3.66179325013931*^9, {
    3.6617978458895063`*^9, 3.661797881592348*^9}}],
-
-Cell[BoxData[
- TagBox[GridBox[{
-    {"\<\"{<circle fill=\\\"RGBColor[1, 0, 0]\\\" posSpec=\\\"to be \
-done\\\"></circle>}\"\>"},
-    {"\<\"{<circle fill=\\\"RGBColor[1, 1, 0]\\\" posSpec=\\\"to be \
-done\\\"></circle>}\"\>"},
-    {"\<\"{<circle fill=\\\"GrayLevel[0]\\\" posSpec=\\\"to be \
-done\\\"></circle>}\"\>"},
-    {"\<\"{<circle fill=\\\"RGBColor[0, 0, 1]\\\" posSpec=\\\"to be \
-done\\\"></circle>}\"\>"}
-   },
-   DefaultBaseStyle->"Column",
-   GridBoxAlignment->{"Columns" -> {{Left}}},
-   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-  "Column"]], "Output",
- CellChangeTimes->{
-  3.6617977498224297`*^9, 3.6617977925741053`*^9, {3.6617978346503057`*^9, 
-   3.6617978831157694`*^9}}]
-}, Open  ]],
 
 Cell[BoxData[
  RowBox[{"Last", "@", 
@@ -362,8 +284,6 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.6617948626987543`*^9, 3.6617949103353524`*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"ExportString", "[", 
   RowBox[{
@@ -373,10 +293,6 @@ Cell[BoxData[
      RowBox[{"{", "}"}]}], "]"}], ",", "\"\<HTMLFragment\>\""}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.6617979084628673`*^9, 3.661797915253375*^9}}],
-
-Cell[BoxData["\<\"<tag></tag>\"\>"], "Output",
- CellChangeTimes->{3.6617979156440134`*^9}]
-}, Open  ]],
 
 Cell[BoxData[{
  RowBox[{"ExportString", "[", 
@@ -407,8 +323,6 @@ Cell[BoxData[
  RowBox[{"\"\<<input class=\\\"form-control\\\"/>\>\"", " "}]], "Input",
  CellChangeTimes->{{3.661838541176169*^9, 3.661838541176169*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"ExportString", "[", 
   RowBox[{
@@ -418,38 +332,12 @@ Cell[BoxData[
      RowBox[{"{", "}"}]}], "]"}], ",", "\"\<XHTML\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.6618387734840307`*^9, 3.661838777805013*^9}}],
 
-Cell[BoxData["\<\"<?xml version=\\\"1.0\\\" \
-encoding=\\\"UTF-8\\\"?>\\r\\n<!DOCTYPE html PUBLIC \\\"-//W3C//DTD XHTML 1.1 \
-plus MathML 2.0//EN\\\"\\r\\n        \\\"HTMLFiles/xhtml-math11-f.dtd\\\">\\r\
-\\n\\r\\n<!-- Created with the Wolfram Language for Students - Personal Use \
-Only : www.wolfram.com -->\\r\\n\\r\\n<html \
-xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n <title>\\r\\n  \
-Untitled (the Wolfram Language for Students - Personal Use Only : \
-www.wolfram.com)\\r\\n </title>\\r\\n <link \
-href=\\\"HTMLFiles/m-9b78793d-2a13-4293-b8df-14487e5c0e02.css\\\" \
-rel=\\\"stylesheet\\\" type=\\\"text/css\\\" \
-/>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n\\r\\n<p class=\\\"Output\\\">\\r\\n \
-<img src=\\\"HTMLFiles/m-9b78793d-2a13-4293-b8df-14487e5c0e02_1.gif\\\" \
-alt=\\\"m-9b78793d-2a13-4293-b8df-14487e5c0e02_1.gif\\\" width=\\\"186\\\" \
-height=\\\"16\\\" style=\\\"vertical-align:middle\\\" \
-/>\\r\\n</p>\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n<div \
-style=\\\"font-family:Helvetica; font-size:11px; width:100%; border:1px none \
-#999999; border-top-style:solid; padding-top:2px; margin-top:20px;\\\">\\r\\n \
-<a href=\\\"http://www.wolfram.com/language/\\\" style=\\\"color:#000; \
-text-decoration:none;\\\">\\r\\n  <span style=\\\"color:#555555\\\">Created \
-with the Wolfram Language</span> \\r\\n \
-</a>\\r\\n</div>\\r\\n</body>\\r\\n\\r\\n</html>\\r\\n\"\>"], "Output",
- CellChangeTimes->{3.6618388064945135`*^9}]
-}, Open  ]],
-
 Cell[BoxData[
  RowBox[{"\"\<<test></test>\>\"", " "}]], "Input",
  CellChangeTimes->{{3.6618385734808702`*^9, 3.6618385734808702`*^9}}],
 
 Cell[BoxData["StringDelete"], "Input",
  CellChangeTimes->{{3.6618376390353613`*^9, 3.661837641120858*^9}}],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"StringReplace", "[", "\[IndentingNewLine]", 
@@ -466,11 +354,7 @@ Cell[BoxData[
      RowBox[{"LetterCharacter", ".."}], "~~", "\"\<>\>\"", "~~", 
      "EndOfString"}], "->", "\"\<>\>\""}]}], "\[IndentingNewLine]", 
   "]"}]], "Input",
- CellChangeTimes->{3.6618386880999746`*^9}],
-
-Cell[BoxData["\<\"<test>\"\>"], "Output",
- CellChangeTimes->{{3.661838684890813*^9, 3.6618386888343754`*^9}}]
-}, Open  ]]
+ CellChangeTimes->{3.6618386880999746`*^9}]
 },
 WindowSize->{1100, 642},
 WindowMargins->{{Automatic, -1323}, {Automatic, -331}},
@@ -481,59 +365,28 @@ StyleDefinitions->"Default.nb"
 
 (* Internal cache information *)
 (*CellTagsOutline
-CellTagsIndex->{
- "Info-92de2831-7db7-4601-b54c-2267e9f5b095"->{
-  Cell[1115, 40, 144, 2, 42, "Print",
-   CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"],
-  Cell[1262, 44, 1025, 26, 23, "Print",
-   CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"]}
- }
+CellTagsIndex->{}
 *)
 (*CellTagsIndex
-CellTagsIndex->{
- {"Info-92de2831-7db7-4601-b54c-2267e9f5b095", 17504, 484}
- }
+CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 391, 10, 52, "Input"],
-Cell[CellGroupData[{
-Cell[974, 34, 116, 2, 31, "Input"],
-Cell[CellGroupData[{
-Cell[1115, 40, 144, 2, 42, "Print",
- CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"],
-Cell[1262, 44, 1025, 26, 23, "Print",
- CellTags->"Info-92de2831-7db7-4601-b54c-2267e9f5b095"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[2336, 76, 1036, 27, 92, "Input"],
-Cell[3375, 105, 646, 13, 353, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4058, 123, 439, 10, 31, "Input"],
-Cell[4500, 135, 721, 17, 72, "Output"]
-}, Open  ]],
-Cell[5236, 155, 390, 11, 31, "Input"],
-Cell[5629, 168, 127, 2, 31, "Input"],
-Cell[5759, 172, 6779, 178, 73, "Input"],
-Cell[12541, 352, 396, 10, 72, "Input"],
-Cell[CellGroupData[{
-Cell[12962, 366, 303, 8, 31, "Input"],
-Cell[13268, 376, 90, 1, 31, "Output"]
-}, Open  ]],
-Cell[13373, 380, 894, 23, 112, "Input"],
-Cell[14270, 405, 152, 2, 31, InheritFromParent],
-Cell[CellGroupData[{
-Cell[14447, 411, 294, 7, 31, "Input"],
-Cell[14744, 420, 1438, 21, 1312, "Output"]
-}, Open  ]],
-Cell[16197, 444, 134, 2, 31, InheritFromParent],
-Cell[16334, 448, 106, 1, 31, "Input"],
-Cell[CellGroupData[{
-Cell[16465, 453, 578, 15, 92, "Input"],
-Cell[17046, 470, 109, 1, 31, "Output"]
-}, Open  ]]
+Cell[952, 32, 116, 2, 31, "Input"],
+Cell[1071, 36, 1036, 27, 92, "Input"],
+Cell[2110, 65, 439, 10, 31, "Input"],
+Cell[2552, 77, 390, 11, 31, "Input"],
+Cell[2945, 90, 127, 2, 31, "Input"],
+Cell[3075, 94, 6779, 178, 73, "Input"],
+Cell[9857, 274, 396, 10, 72, "Input"],
+Cell[10256, 286, 303, 8, 31, "Input"],
+Cell[10562, 296, 894, 23, 112, "Input"],
+Cell[11459, 321, 152, 2, 31, InheritFromParent],
+Cell[11614, 325, 294, 7, 31, "Input"],
+Cell[11911, 334, 134, 2, 31, InheritFromParent],
+Cell[12048, 338, 106, 1, 31, "Input"],
+Cell[12157, 341, 578, 15, 92, "Input"]
 }
 ]
 *)

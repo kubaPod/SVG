@@ -60,7 +60,7 @@ Begin["`Private`"] (* Begin Private Context *)
 		attr = Join[attr, primitiveSpecConv[primitive]];
 
 		XMLElement[
-			{primitiveNameConv @ primitive},
+			primitiveNameConv @ primitive,
       attr,
 			{}
 		]
@@ -83,7 +83,7 @@ Begin["`Private`"] (* Begin Private Context *)
   mergeDirectives[__]:=##&[];
 
 	(*TODO ColorConversion*)
-  colorConversion = Identity;
+  colorConversion = ToString;
 
 	(*TODO Disk[] -> Disk[{0,0},1] -> cx cy z spec   etc. *)
   primitiveSpecConv[_]={"posSpec"->"to be done"};
